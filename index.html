@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adeus Celulite! — O Guia de Autocuidado</title>
+    <meta name="description" content="Aprenda a reduzir a aparência da celulite com hábitos saudáveis e autocuidado realista." />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+  <body class="bg-[#0f0a15] text-gray-400 selection:bg-primary-500 selection:text-white">
+    <div id="app" class="relative overflow-hidden">
+      <!-- Background Ambient Glow -->
+      <div class="fixed top-[-10%] left-[-10%] w-[40%] h-[40%] bg-primary-900/40 blur-[120px] rounded-full pointer-events-none -z-10"></div>
+      <div class="fixed bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-primary-800/20 blur-[120px] rounded-full pointer-events-none -z-10"></div>
+
+      <!-- Section 1: Hero -->
+      <section id="hero" class="min-h-screen flex flex-col items-center justify-center px-6 pt-12 pb-8 text-center max-w-4xl mx-auto">
+        <div class="reveal">
+          <span class="inline-block px-4 py-1.5 mb-8 text-[10px] font-bold tracking-[0.2em] text-primary-300 uppercase bg-primary-950/50 backdrop-blur-sm border border-primary-800/50 rounded-full">
+            EXPERIÊNCIA PREMIUM
+          </span>
+          <h1 class="text-4xl md:text-6xl font-outfit font-semibold leading-tight mb-6">
+            <span class="gradient-text">Cuidar de você</span><br/> não precisa ser complicado.
+          </h1>
+          <p class="text-lg md:text-xl text-gray-400 leading-relaxed mb-10 max-w-2xl mx-auto font-light">
+            Um guia simples e prático para mulheres que querem reduzir a aparência da celulite com informação, rotina e autocuidado.
+          </p>
+          <div class="flex flex-col items-center gap-4">
+            <a href="#offer" class="group relative inline-flex items-center justify-center bg-primary-600 hover:bg-primary-500 text-white font-bold py-5 px-12 rounded-2xl transition-all hover:scale-105 active:scale-95 shadow-[0_0_30px_rgba(177,142,235,0.3)]">
+              <span>Quero acessar o guia</span>
+              <i data-lucide="sparkles" class="w-4 h-4 ml-2 animate-pulse"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="relative w-full max-w-xs mx-auto mt-12 reveal animate-float">
+          <!-- Main Ebook Mockup -->
+          <div class="relative bg-[#1a1325] p-2 rounded-3xl shadow-[0_40px_100px_rgba(0,0,0,0.8)] border border-primary-800/30 transform rotate-2">
+            <img src="/cover.png" alt="Capa Adeus Celulite" class="rounded-2xl w-full h-auto opacity-90 shadow-inner" />
+          </div>
+          <!-- Decorative Blur behind Ebook -->
+          <div class="absolute inset-0 bg-primary-500/10 blur-[60px] -z-10"></div>
+        </div>
+      </section>
+
+      <!-- Section 2: Identification -->
+      <section class="py-12 px-6 reveal">
+        <div class="max-w-xl mx-auto">
+          <div class="text-center mb-12">
+             <h2 class="text-2xl font-outfit font-medium text-white mb-4">Você sente que...</h2>
+          </div>
+          
+          <div class="space-y-4 mb-16">
+            <div class="glass p-6 rounded-[2rem] premium-border flex items-start gap-4">
+              <div class="w-10 h-10 rounded-full bg-primary-900/50 flex items-center justify-center shrink-0">
+                <i data-lucide="frown" class="w-5 h-5 text-primary-400"></i>
+              </div>
+              <p class="text-gray-300">Já tentou várias coisas e se frustrou com promessas milagrosas.</p>
+            </div>
+            <div class="glass p-6 rounded-[2rem] premium-border flex items-start gap-4">
+              <div class="w-10 h-10 rounded-full bg-primary-900/50 flex items-center justify-center shrink-0">
+                <i data-lucide="search" class="w-5 h-5 text-primary-400"></i>
+              </div>
+              <p class="text-gray-300">Falta clareza sobre o que realmente funciona no seu corpo.</p>
+            </div>
+            <div class="glass p-6 rounded-[2rem] premium-border flex items-start gap-4">
+              <div class="w-10 h-10 rounded-full bg-primary-900/50 flex items-center justify-center shrink-0">
+                <i data-lucide="heart-off" class="w-5 h-5 text-primary-400"></i>
+              </div>
+              <p class="text-gray-300">A celulite afeta sua autoestima e o prazer de se olhar no espelho.</p>
+            </div>
+          </div>
+
+          <!-- Testimonials -->
+          <div class="grid grid-cols-1 gap-6">
+            <div class="bg-primary-950/30 p-8 rounded-[2.5rem] border border-white/5 italic text-gray-400 relative reveal">
+              <i data-lucide="quote" class="absolute -top-4 left-6 w-10 h-10 text-primary-800/30"></i>
+              "Finalmente algo realista. Não me prometeram sumir com tudo em 3 dias, mas me ensinaram a cuidar da minha pele com carinho e informação."
+              <div class="mt-6 flex items-center gap-3">
+                 <div class="w-8 h-8 rounded-full bg-primary-800/20 flex items-center justify-center"><i data-lucide="user" class="w-4 h-4 text-primary-400"></i></div>
+                 <p class="font-semibold not-italic text-sm text-gray-100">— Juliana M.</p>
+              </div>
+            </div>
+
+            <div class="bg-primary-950/30 p-8 rounded-[2.5rem] border border-white/5 italic text-gray-400 relative reveal">
+              <i data-lucide="quote" class="absolute -top-4 left-6 w-10 h-10 text-primary-800/30"></i>
+              "As receitas anti-celulite são deliciosas e cabem na minha rotina corrida de mãe. Sinto as pernas bem menos inchadas."
+              <div class="mt-6 flex items-center gap-3">
+                 <div class="w-8 h-8 rounded-full bg-primary-800/20 flex items-center justify-center"><i data-lucide="user" class="w-4 h-4 text-primary-400"></i></div>
+                 <p class="font-semibold not-italic text-sm text-gray-100">— Roberta L.</p>
+              </div>
+            </div>
+
+            <div class="bg-primary-950/30 p-8 rounded-[2.5rem] border border-white/5 italic text-gray-400 relative reveal">
+              <i data-lucide="quote" class="absolute -top-4 left-6 w-10 h-10 text-primary-800/30"></i>
+              "O checklist mudou meu jeito de ir ao mercado. Agora entendo o que realmente ajuda e não gasto mais dinheiro com produtos caros que não funcionavam."
+              <div class="mt-6 flex items-center gap-3">
+                 <div class="w-8 h-8 rounded-full bg-primary-800/20 flex items-center justify-center"><i data-lucide="user" class="w-4 h-4 text-primary-400"></i></div>
+                 <p class="font-semibold not-italic text-sm text-gray-100">— Amanda K.</p>
+              </div>
+            </div>
+
+            <div class="bg-primary-950/30 p-8 rounded-[2.5rem] border border-white/5 italic text-gray-400 relative reveal">
+              <i data-lucide="quote" class="absolute -top-4 left-6 w-10 h-10 text-primary-800/30"></i>
+              "Amei o guia! É direto ao ponto e foca no nosso bem-estar, sem aquela pressão chata para ser perfeita. Minha pele agradece."
+              <div class="mt-6 flex items-center gap-3">
+                 <div class="w-8 h-8 rounded-full bg-primary-800/20 flex items-center justify-center"><i data-lucide="user" class="w-4 h-4 text-primary-400"></i></div>
+                 <p class="font-semibold not-italic text-sm text-gray-100">— Beatriz F.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 3: Solution -->
+      <section class="py-12 px-6 bg-primary-950/20 reveal">
+        <div class="max-w-xl mx-auto">
+          <div class="text-center mb-16">
+            <h2 class="text-3xl font-outfit font-semibold text-white mb-6">A solução definitiva e realista.</h2>
+            <p class="text-gray-400 font-light">O guia Adeus Celulite foi desenhado para ser prático, rápido e eficiente.</p>
+          </div>
+
+          <div class="grid grid-cols-1 gap-6 mb-20">
+            <div class="glass p-8 rounded-[2.5rem] border border-white/5">
+              <h3 class="font-semibold text-xl mb-6 text-primary-300">O que te espera:</h3>
+              <ul class="space-y-4">
+                <li class="flex items-center gap-4">
+                  <div class="w-2 h-2 rounded-full bg-primary-500"></div>
+                  <span class="text-gray-200"> Ciência simplificada sobre a celulite</span>
+                </li>
+                <li class="flex items-center gap-4">
+                  <div class="w-2 h-2 rounded-full bg-primary-500"></div>
+                  <span class="text-gray-200">Lista dos "vilões" e aliados reais</span>
+                </li>
+                <li class="flex items-center gap-4">
+                  <div class="w-2 h-2 rounded-full bg-primary-500"></div>
+                  <span class="text-gray-200">Escolhas possíveis para rotinas corridas</span>
+                </li>
+                <li class="flex items-center gap-4">
+                  <div class="w-2 h-2 rounded-full bg-primary-500"></div>
+                  <span class="text-gray-200">Protocolo de autocuidado diário</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Bonus Section -->
+          <div class="text-center">
+            <h3 class="text-2xl font-outfit font-medium text-white mb-12">Além do guia, você leva estes <span class="text-primary-400 uppercase tracking-widest text-sm block md:inline">Presentes Exclusivos</span></h3>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
+               <div class="flex flex-col items-center bg-white/5 p-8 rounded-[2.5rem] premium-border hover:bg-white/10 transition-colors">
+                  <div class="w-14 h-14 rounded-full bg-primary-900/40 flex items-center justify-center mb-6">
+                    <i data-lucide="utensils" class="w-6 h-6 text-primary-300"></i>
+                  </div>
+                  <span class="text-[10px] uppercase tracking-tighter text-primary-400 mb-2 font-bold">BÔNUS 01</span>
+                  <p class="text-lg font-medium text-white mb-2 leading-tight">E-book: 50 Receitas Anti-Celulite</p>
+                  <p class="text-sm text-gray-500 font-light">Opções práticas e deliciosas para desinflamar o corpo.</p>
+               </div>
+               
+               <div class="flex flex-col items-center bg-white/5 p-8 rounded-[2.5rem] premium-border hover:bg-white/10 transition-colors">
+                  <div class="w-14 h-14 rounded-full bg-primary-900/40 flex items-center justify-center mb-6">
+                    <i data-lucide="clipboard-check" class="w-6 h-6 text-primary-300"></i>
+                  </div>
+                  <span class="text-[10px] uppercase tracking-tighter text-primary-400 mb-2 font-bold">BÔNUS 02</span>
+                  <p class="text-lg font-medium text-white mb-2 leading-tight">Checklist de Apoio</p>
+                  <p class="text-sm text-gray-500 font-light">Praticidade para mercado e suplementação.</p>
+               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 4: Offer -->
+      <section id="offer" class="py-12 px-6 relative reveal">
+        <div class="max-w-md mx-auto relative z-10">
+          <div class="glass p-10 rounded-[3rem] text-center border border-primary-500/20 shadow-[0_0_80px_rgba(177,142,235,0.1)] relative overflow-hidden">
+            <div class="absolute top-0 right-0 p-6">
+              <i data-lucide="crown" class="w-6 h-6 text-primary-500/40"></i>
+            </div>
+            
+            <h2 class="text-2xl font-outfit font-semibold text-white mb-8">Acesso Imediato ao Guia</h2>
+            
+            <div class="space-y-4 text-left border-y border-white/5 py-8 mb-8">
+               <div class="flex items-center gap-3">
+                 <i data-lucide="check" class="w-5 h-5 text-primary-400"></i>
+                 <span class="text-gray-300">Guia Completo Adeus Celulite</span>
+               </div>
+               <div class="flex items-center gap-3">
+                 <i data-lucide="check" class="w-5 h-5 text-primary-400"></i>
+                 <span class="text-gray-300">Bônus: E-book 50 Receitas Práticas</span>
+               </div>
+               <div class="flex items-center gap-3 font-semibold text-primary-300">
+                 <i data-lucide="check" class="w-5 h-5"></i>
+                 <span>Bônus: Checklist Imprimível</span>
+               </div>
+            </div>
+
+            <div class="mb-10">
+              <span class="text-gray-600 line-through text-lg">R$ 47,00</span>
+              <div class="flex items-center justify-center gap-1 mt-2">
+                <span class="text-2xl font-semibold align-top text-gray-400 mt-1">R$</span>
+                <span class="text-7xl font-outfit font-bold text-white tracking-tighter leading-none">14,90</span>
+              </div>
+              <p class="text-primary-400 font-medium mt-4 tracking-widest text-xs uppercase">PAGAMENTO ÚNICO</p>
+            </div>
+
+            <a href="https://pay.hotmart.com/C104125361W" class="block w-full bg-primary-600 hover:bg-primary-500 text-white font-semibold py-4 px-8 rounded-xl shadow-lg transition-all hover:scale-[1.02] active:scale-95 text-lg mb-6">
+              Começar minha jornada
+            </a>
+
+            <p class="text-gray-500 text-sm">
+              ✨ Invista menos que um café por semana em você.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 5: Emotional Closing -->
+      <section class="py-32 px-6 text-center relative overflow-hidden">
+        <div class="max-w-xl mx-auto">
+          <h2 class="text-3xl md:text-4xl font-outfit font-light text-white italic mb-16 leading-relaxed reveal">
+            “Você não precisa se odiar<br/> <span class="text-primary-300 font-medium">para se cuidar.</span>”
+          </h2>
+          <a href="#hero" class="inline-flex items-center gap-3 text-primary-400 hover:text-primary-300 transition-colors uppercase tracking-[0.3em] text-[10px] font-bold reveal">
+            VOLTAR AO TOPO
+            <i data-lucide="arrow-up" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </section>
+
+      <footer class="py-16 px-6 text-center text-xs text-gray-600 font-light border-t border-white/5">
+        <p>&copy; 2026 Adeus Celulite! &bull; Todos os direitos reservados.</p>
+        <p class="mt-4 max-w-sm mx-auto opacity-50">O conteúdo deste guia é educativo e não substitui orientação médica ou nutricional personalizada.</p>
+      </footer>
+    </div>
+    
+    <script type="module" src="/src/main.js"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
